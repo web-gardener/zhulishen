@@ -1,0 +1,17 @@
+.pre-loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  z-index: 1000;
+}
+
+.pre-loading canvas {
+  width:800px;
+  height:200px;
+}
+
+.main-body {
+    display: none;
+}
